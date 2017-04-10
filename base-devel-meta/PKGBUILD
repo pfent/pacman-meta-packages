@@ -1,0 +1,36 @@
+# Author: Philipp Fent <philipp@fent.de>
+
+_pkgname=base-devel
+pkgname=${_pkgname}-meta
+pkgver=2017.4.10
+pkgrel=1
+pkgdesc="${_pkgname} meta package"
+arch=('any')
+url="https://www.archlinux.org/groups/x86_64/${_pkgname}/"
+license=(GPL)
+depends=(
+'autoconf'
+'automake'
+'binutils'
+'bison'
+'fakeroot'
+'file'
+'findutils'
+'flex'
+'gawk'
+'gettext'
+'grep'
+'groff'
+'gzip'
+'libtool'
+'m4'
+'make'
+'pacman'
+'patch'
+'pkg-config'
+'sed'
+'sudo'
+'texinfo'
+'util-linux'
+'which'
+)

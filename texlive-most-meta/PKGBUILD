@@ -1,0 +1,27 @@
+# Author: Philipp Fent <philipp@fent.de>
+
+_pkgname=texlive-most
+pkgname=${_pkgname}-meta
+pkgver=2017.4.10
+pkgrel=1
+pkgdesc="${_pkgname} meta package"
+arch=('any')
+url="https://www.archlinux.org/groups/x86_64/${_pkgname}/"
+license=(GPL)
+depends=(
+'texlive-bibtexextra'
+'texlive-core'
+'texlive-fontsextra'
+'texlive-formatsextra'
+'texlive-games'
+'texlive-genericextra'
+'texlive-htmlxml'
+'texlive-humanities'
+'texlive-latexextra'
+'texlive-music'
+'texlive-pictures'
+'texlive-plainextra'
+'texlive-pstricks'
+'texlive-publishers'
+'texlive-science'
+)
